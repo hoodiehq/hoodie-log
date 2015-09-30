@@ -1,0 +1,8 @@
+require('./specs/constructor')
+require('./specs/parse-options')
+require('./specs/debug')
+require('./specs/log')
+require('./specs/info')
+require('./specs/warn')
+require('./specs/error')
+require('./specs/scoped')
