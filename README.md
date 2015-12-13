@@ -90,7 +90,7 @@ new Log(options)
     <td>Boolean or Object</td>
     <td>
       <em>Defaults to <code>true</code></em>. If set to false, all log messages
-      are prefixed by <code>(<prefix>:<log type>)</log>, e.g.
+      are prefixed by <code>(&lt;prefix&gt;:&lt;log type&gt;)</code>, e.g.
       <code>(fooprefix:warn) bar is not available.</code>. If set to true,
       styles are applied to the prefix. The styles can be customised, see below
     </td>
@@ -342,8 +342,9 @@ Run specific tests only
 
 ```
 node tests/specs/debug.js # run .debug() unit tests
-# PROTIP™ Pipe output through a [pretty reporter](https://www.npmjs.com/package/tape#pretty-reporters)
 ```
+
+**PROTIP™:** pipe output through a [pretty reporter](https://www.npmjs.com/package/tape#pretty-reporters)
 
 ### License
 
