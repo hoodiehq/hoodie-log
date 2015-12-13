@@ -6,8 +6,8 @@ cache:
 notifications:
   email: false
 node_js:
-  - '4'
-  - '0.10'
+  - 4
+  - stable
 before_install:
   - npm install -g npm
 before_script:
