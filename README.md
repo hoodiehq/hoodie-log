@@ -230,7 +230,6 @@ log.level = 'foo'
 
 ---
 
-🐕 **TO BE DONE**: [changing `log.debug` has no effect](https://github.com/hoodiehq/hoodie-client-log/issues/1)
 🐕 **TO BE DONE**: [Prevent invalid values for level](https://github.com/hoodiehq/hoodie-client-log/issues/16)
 
 ---
