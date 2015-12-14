@@ -28,8 +28,17 @@ function Log (options) {
     })
   }
 
+  Object.defineProperty(api, 'level', {
+    get: function () {
+      return state.level
+    },
+    set: function (newValue) {
+      state.level = newValue
+    },
+    enumerable: true
+  })
+
   api.prefix = state.prefix
-  api.level = state.level
 
   return api
 }
