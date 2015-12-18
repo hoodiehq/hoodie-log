@@ -33,6 +33,9 @@ function Log (options) {
       return state.level
     },
     set: function (newValue) {
+      if (['debug', 'error', 'info', 'warn'].indexOf(newValue) === -1) {
+        throw new Error('Invalid value for log.level: ' + newValue)
+      }
       state.level = newValue
     },
     enumerable: true
