@@ -228,13 +228,6 @@ log.level = 'foo'
 // throws InvalidValue error
 ```
 
----
-
-🐕 **TO BE DONE**: [Prevent invalid values for level](https://github.com/hoodiehq/hoodie-client-log/issues/16)
-
----
-
-
 ### log()
 
 Logs message to browser console. Accepts same arguments as [console.log](https://developer.mozilla.org/en-US/docs/Web/API/Console/log)
