@@ -41,7 +41,15 @@ function Log (options) {
     enumerable: true
   })
 
-  api.prefix = state.prefix
+  Object.defineProperty(api, 'prefix', {
+    get: function () {
+      return state.prefix
+    },
+    set: function (newValue) {
+      throw new Error('log.prefix is read-only')
+    },
+    enumerable: true
+  })
 
   return api
 }
