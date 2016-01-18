@@ -200,8 +200,6 @@ log.warn("Something is fishy here!")
 
 ---
 
-🐕 **TO BE DONE**: [Make log.prefix read-only](https://github.com/hoodiehq/hoodie-client-log/issues/15)
-
 ---
 
 ### log.level
