@@ -336,6 +336,6 @@ node tests/specs/debug.js # run .debug() unit tests
 
 **PROTIP™:** pipe output through a [pretty reporter](https://www.npmjs.com/package/tape#pretty-reporters)
 
-### License
+## License
 
-[Apache-2.0](https://github.com/hoodiehq/hoodie/blob/master/LICENSE)
+[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
