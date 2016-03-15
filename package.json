@@ -2,6 +2,7 @@
   "name": "hoodie-client-log",
   "description": "log API for the browser",
   "main": "client/index.js",
+  "browser": "client/index.js",
   "scripts": {
     "prebuild": "rimraf dist && mkdirp dist",
     "build": "browserify client/index.js --standalone=Log > dist/hoodie-client-log.js",
