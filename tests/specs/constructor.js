@@ -1,6 +1,6 @@
 var test = require('tape')
 
-var Log = require('../../index')
+var Log = require('../../client')
 
 test('Constructor', function (t) {
   var log = new Log('foo')

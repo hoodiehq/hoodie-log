@@ -1,7 +1,7 @@
 var simple = require('simple-mock')
 var test = require('tape')
 
-var Log = require('../../index')
+var Log = require('../../client')
 
 test('log.level', function (t) {
   Log.console = {

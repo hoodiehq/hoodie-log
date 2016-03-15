@@ -1,6 +1,6 @@
 var test = require('tape')
 var simple = require('simple-mock')
-var Log = require('../../index')
+var Log = require('../../client')
 var log = require('../../lib/log')
 
 test('log("bar")', function (t) {

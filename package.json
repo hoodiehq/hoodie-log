@@ -1,15 +1,15 @@
 {
   "name": "hoodie-client-log",
   "description": "log API for the browser",
-  "main": "index.js",
+  "main": "client/index.js",
   "scripts": {
     "prebuild": "rimraf dist && mkdirp dist",
-    "build": "browserify index.js --standalone=Log > dist/hoodie-client-log.js",
+    "build": "browserify client/index.js --standalone=Log > dist/hoodie-client-log.js",
     "postbuild": "uglifyjs dist/hoodie-client-log.js -mc > dist/hoodie-client-log.min.js",
     "pretest": "standard",
     "test": "npm run -s test:node | tap-spec",
     "test:node": "node tests",
-    "test:watch": "gaze 'clear && node tests | tap-min' 'tests/**/*.js' 'index.js' 'lib/**/*.js'",
+    "test:watch": "gaze 'clear && node tests | tap-min' 'tests/**/*.js' 'client/*.js' 'lib/**/*.js'",
     "test:coverage": "istanbul cover tests",
     "test:coverage:upload": "istanbul-coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"

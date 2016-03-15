@@ -2,13 +2,13 @@ module.exports = Log
 
 Log.console = console
 
-var log = require('./lib/log')
-var debug = require('./lib/debug')
-var info = require('./lib/info')
-var warn = require('./lib/warn')
-var error = require('./lib/error')
+var log = require('../lib/log')
+var debug = require('../lib/debug')
+var info = require('../lib/info')
+var warn = require('../lib/warn')
+var error = require('../lib/error')
 
-var parseOptions = require('./lib/utils/parse-options')
+var parseOptions = require('../lib/utils/parse-options')
 
 function Log (options) {
   var state = parseOptions(options)
