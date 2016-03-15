@@ -1,13 +1,13 @@
-# hoodie-client-log
+# hoodie-log
 
 > Custom log API for the browser
 
-[![Build Status](https://travis-ci.org/hoodiehq/hoodie-client-log.svg?branch=master)](https://travis-ci.org/hoodiehq/hoodie-client-log)
-[![Coverage Status](https://coveralls.io/repos/hoodiehq/hoodie-client-log/badge.svg?branch=master)](https://coveralls.io/r/hoodiehq/hoodie-client-log?branch=master)
-[![Dependency Status](https://david-dm.org/hoodiehq/hoodie-client-log.svg)](https://david-dm.org/hoodiehq/hoodie-client-log)
-[![devDependency Status](https://david-dm.org/hoodiehq/hoodie-client-log/dev-status.svg)](https://david-dm.org/hoodiehq/hoodie-client-log#info=devDependencies)
+[![Build Status](https://travis-ci.org/hoodiehq/hoodie-log.svg?branch=master)](https://travis-ci.org/hoodiehq/hoodie-log)
+[![Coverage Status](https://coveralls.io/repos/hoodiehq/hoodie-log/badge.svg?branch=master)](https://coveralls.io/r/hoodiehq/hoodie-log?branch=master)
+[![Dependency Status](https://david-dm.org/hoodiehq/hoodie-log.svg)](https://david-dm.org/hoodiehq/hoodie-log)
+[![devDependency Status](https://david-dm.org/hoodiehq/hoodie-log/dev-status.svg)](https://david-dm.org/hoodiehq/hoodie-log#info=devDependencies)
 
-`hoodie-client-log` is a standalone JavaScript library for logging to the
+`hoodie-log` is a standalone JavaScript library for logging to the
 browser console. If available, it takes advantage of [CSS-based styling of console
 log outputs](https://developer.mozilla.org/en-US/docs/Web/API/Console#Styling_console_output).
 
@@ -311,8 +311,8 @@ fooLog('baz!')
 Local setup
 
 ```
-git clone git@github.com:hoodiehq/hoodie-client-log.git
-cd hoodie-client-log
+git clone git@github.com:hoodiehq/hoodie-log.git
+cd hoodie-log
 npm install
 ```
 
