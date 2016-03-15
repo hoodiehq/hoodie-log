@@ -47,5 +47,8 @@
     "tap-spec": "^4.1.1",
     "tape": "^4.2.2",
     "uglify-js": "^2.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
