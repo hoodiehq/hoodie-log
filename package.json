@@ -5,8 +5,8 @@
   "browser": "client/index.js",
   "scripts": {
     "prebuild": "rimraf dist && mkdirp dist",
-    "build": "browserify client/index.js --standalone=Log > dist/hoodie-client-log.js",
-    "postbuild": "uglifyjs dist/hoodie-client-log.js -mc > dist/hoodie-client-log.min.js",
+    "build": "browserify client/index.js --standalone=Log > dist/hoodie-log.js",
+    "postbuild": "uglifyjs dist/hoodie-log.js -mc > dist/hoodie-log.min.js",
     "pretest": "standard",
     "test": "npm run -s test:node | tap-spec",
     "test:node": "node tests",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoodiehq/hoodie-client-log.git"
+    "url": "https://github.com/hoodiehq/hoodie-log.git"
   },
   "keywords": [
     "hoodie",
@@ -27,9 +27,9 @@
   "author": "The Hoodie Community",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/hoodiehq/hoodie-client-log/issues"
+    "url": "https://github.com/hoodiehq/hoodie-log/issues"
   },
-  "homepage": "https://github.com/hoodiehq/hoodie-client-log#readme",
+  "homepage": "https://github.com/hoodiehq/hoodie-log#readme",
   "dependencies": {
     "browser-supports-log-styles": "^1.1.3"
   },
