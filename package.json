@@ -1,5 +1,5 @@
 {
-  "name": "hoodie-client-log",
+  "name": "@hoodie/log",
   "description": "log API for the browser",
   "main": "client/index.js",
   "browser": "client/index.js",
