@@ -49,6 +49,7 @@
     "uglify-js": "^2.6.1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "verifyConditions": "./semantic-release-verify"
   }
 }
