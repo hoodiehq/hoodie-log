@@ -50,6 +50,9 @@
   },
   "publishConfig": {
     "access": "public",
-    "verifyConditions": "./semantic-release-verify"
+    "verifyConditions": {
+      "path": "./semantic-release-verify"
+    }
+
   }
 }
