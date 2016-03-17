@@ -13,18 +13,20 @@
     "test:watch": "gaze 'clear && node tests | tap-min' 'tests/**/*.js' 'client/*.js' 'lib/**/*.js'",
     "test:coverage": "istanbul cover tests",
     "test:coverage:upload": "istanbul-coveralls",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre --debug=false && npm publish && semantic-release post --debug=false"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/finnp/hoodie-log.git"
+    "url": "git+https://github.com/finnp/hoodie-log.git"
   },
   "keywords": [
     "hoodie",
     "log",
     "browser"
   ],
-  "author": "The Hoodie Community",
+  "author": {
+    "name": "The Hoodie Community"
+  },
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/finnp/hoodie-log/issues"
@@ -49,7 +51,7 @@
     "tape": "^4.2.2",
     "uglify-js": "^2.6.1"
   },
-  "publishConfig": {
+  "release": {
     "access": "public",
     "verifyConditions": {
       "path": "./semantic-release-verify"
