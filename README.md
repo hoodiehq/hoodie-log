@@ -1,6 +1,6 @@
 # hoodie-log
 
-> Custom log API for the browser
+> log API for the browser
 
 [![Build Status](https://travis-ci.org/hoodiehq/hoodie-log.svg?branch=master)](https://travis-ci.org/hoodiehq/hoodie-log)
 [![Coverage Status](https://coveralls.io/repos/hoodiehq/hoodie-log/badge.svg?branch=master)](https://coveralls.io/r/hoodiehq/hoodie-log?branch=master)
