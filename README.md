@@ -313,10 +313,10 @@ You might restrict logging in production to only error logs. You can safely do t
 For example, this could be configured in your application like this:
 
 ```js
-if (process.env.NODE_ENV !== 'development') {
+if (isProduction) {
   log.level = 'error';
 }
-``` 
+```
 
 ## Testing
 
